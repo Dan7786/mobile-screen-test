@@ -1,4 +1,9 @@
+body {
+    font-size: calc(0.75em + 1vmin);
+}
+
 @media only screen and (max-width: 600px) {
+    
     .header{
       background-color: #ff5ccd;
       height: 150px;
@@ -82,7 +87,7 @@
     }
     .picker-date{
         border: 0.5px solid gray;
-        font-size: 14px;
+        font-size: 0.7em;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -91,14 +96,14 @@
     }
     .time-of-day{
         margin: 0 11px 11px 20px;
-        font-size: 12px;
+        font-size: 1em;
     }
     .time-slot{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 8px;
         row-gap: 8px;
-        font-size: 10px;
+        font-size: 0.7em;
         /* margin: 0px 22px 16px 22px; */
     }
     .tab{
@@ -161,7 +166,7 @@
         background: #ff5ccd;
         border: none;
         color: white;
-        padding: 10px 161px;
+        padding: 10px 140px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
