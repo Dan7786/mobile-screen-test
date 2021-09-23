@@ -27,9 +27,163 @@
         <div class="michael-prince-cover">
             <div class="img-rounded">
                 <img src="./images/michelleprince.jpg" height="89" width="89">
+                <h4>Michelle Prince</h4>
             </div>
         </div>
 
+        <div class="appointment-scheduler">
+            <p>When? Choose a date and time</p>
+            <p>May <span> <i class="fas fa-caret-up"></i></span></p>
+        </div>
+
+        <div class="wrapper">
+            <div class="picker-date">
+                <span>23</span>
+                <span>Mon</span>
+            </div>
+            <div class="picker-date">
+                <span>24</span>
+                <span>Tue</span>
+            </div>
+            <div class="picker-date">
+                <span>25</span>
+                <span>Wed</span>
+            </div>
+            <div class="picker-date">
+                <span>26</span>
+                <span>Thur</span>
+            </div>
+            <div class="picker-date">
+                <span>27</span>
+                <span>Fri</span>
+            </div>
+            <div class="picker-date">
+                <span>28</span>
+                <span>Sat</span>
+            </div>
+            <div class="picker-date">
+                <span>29</span>
+                <span>Sun</span>
+            </div>
+        </div>
+
+        <div class="time-of-day bold">
+            <p>Time of day</p>
+            <div class="time-slot">
+                <div class="tab">
+                    <span>01:00-02:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>02:00-03:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>03:00-04:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>04:00-05:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>06:00-07:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>07:00-08:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>08:00-9:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>9:00-10:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>11:00-12:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>13:00-14:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>14:00-15:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>16:00-17:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>18:00-19:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>19:00-20:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>20:00-21:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>21:00-22:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>22:00-23:00</span>
+                </div>
+
+                <div class="tab">
+                    <span>23:00-24:00</span>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="opening-hours">
+            <button class="accordion bold">
+                opening hours
+                <span class="fa-right"> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </span>
+            </button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="next">
+                <button class="next">
+                    next
+                </button>
+            </div>
+
+        </div>
+
 </body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
 
 </html>
