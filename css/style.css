@@ -1,5 +1,7 @@
 body {
     font-size: calc(0.75em + 1vmin);
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -28,15 +30,17 @@ body {
         margin-top: -66px;
         border-radius: 8px;
     }
+    .fa-left{
+        padding-right: 7px;
+    }
     .img-rounded{
         display: flex;
         justify-content: space-between;
     }
     .img-rounded h4 {
         color: #ffffff;
-        margin-top: 43px;
-        margin-left: -29px;
-        margin-right: 67px;
+        margin-top: 58px;
+        margin-right: 49px;
     }
     
     .img-rounded img {
@@ -112,6 +116,7 @@ body {
         justify-content: center;
         align-items: center;
         border-radius: 2px;
+        height: 30px;
     }
     .tab:nth-child(3){
         background: #ff5ccd;
@@ -159,7 +164,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        margin: 30px 0;
     }
     .next button{
         text-transform: capitalize;
