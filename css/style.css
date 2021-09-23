@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+    .header{
+      background-color: #ff5ccd;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 26px;
+    }
+
+    .hero-section{
+        background-image: url(../images/bg-1.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+    }
+    .michael-prince-cover{
+        background-color: #ff5ccd;
+        height: 137px;
+        margin: 0 40px;
+        margin-top: -66px;
+        border-radius: 8px;
+    }
+    
+    .img-rounded img {
+        border-radius: 50%;
+        border: 5px solid #ffffff;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
